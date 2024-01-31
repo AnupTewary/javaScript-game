@@ -1,0 +1,29 @@
+.container{
+    width: 100%;
+    height: calc(100% - 100vh);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grid{
+    width: 606px;
+    height: 606px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body{
+    background-color: lightcyan;
+}
+
+.square{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+}
+
+.mole{
+    background: url('images/mole.jpg');
+    background-size: cover;
+}
